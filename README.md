@@ -1,4 +1,4 @@
 # GAIPAT-attention-error-modeling
 A practice project using the GAIPAT dataset
 
-The goal of this project is two-fold: 1) predict distraction states based on gaze entropy and 2) predict error rate based on fixation time on instruction AOIs during a basic LEGO assembly task. This is a supervised approach. Given that inattention (aka distraction) exists on a continuum, I will bin gaze entropy into 3+ categories rather than classify it in a binary way. Error rate will be treated as binary. 
+The goal of this project is to take eye-tracking data from the GAIPAT dataset to develop clusters of 'distracted' states. I chose to bin in 3 clusters as inattention happens on a continuum. Using the pupil and gazepoint files for each participant, I was able to make a few classifiers to predict states. 
